@@ -23,7 +23,7 @@
     xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
     clockSkew="180">
 
-    <InProcess checkSpoofing="false" />
+    <InProcess checkSpoofing="true" />
 
     <!--
     By default, in-memory StorageService, ReplayCache, ArtifactMap, and SessionCache
